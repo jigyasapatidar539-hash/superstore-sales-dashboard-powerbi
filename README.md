@@ -33,6 +33,17 @@ clustering to segment customers into actionable groups.
 
 **Tools:** Python, Pandas, Scikit-learn, Matplotlib
 
+## Phase 3: Sales Forecasting (Linear Regression)
+Built a time-series forecasting model to predict future monthly sales trends 
+using historical Superstore sales data.
+
+**Approach:**
+- Aggregated daily transactions into monthly sales totals
+- Applied Linear Regression to capture overall sales trend
+- Forecasted sales for the next 6 months
+
+**Tools:** Python, Pandas, Scikit-learn, Matplotlib
+
 ## 📁 Files
 - `sales data.pbix` — Power BI dashboard file
 
