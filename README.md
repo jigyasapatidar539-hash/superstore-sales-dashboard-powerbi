@@ -21,9 +21,17 @@ This project demonstrates an end-to-end data analytics workflow — from raw CSV
 - Los Angeles and Philadelphia are top-performing cities by sales
 - Sales show a declining trend over the observed period
 
-## 🚀 Upcoming (Phase 2)
-- Customer segmentation using K-Means clustering (Python)
-- Sales forecasting model
+## Phase 2: Customer Segmentation (K-Means)
+Performed RFM analysis (Recency, Frequency, Monetary) and applied K-Means 
+clustering to segment customers into actionable groups.
+
+**Segments identified:**
+- High Value Customers — frequent, recent, high spenders
+- At Risk Customers — long time since last purchase
+- New Customers — recent but low frequency
+- Regular Customers — moderate across all metrics
+
+**Tools:** Python, Pandas, Scikit-learn, Matplotlib
 
 ## 📁 Files
 - `sales data.pbix` — Power BI dashboard file
